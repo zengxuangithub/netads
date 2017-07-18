@@ -1,6 +1,8 @@
 
-wew
-额外翁
+clone 到本地
+1 clone git@github.com:zengxuangithub/netads netads   //第二个netads为本地新建的文件夹
+
+
 上传修改的文件到远程仓库主分支  
 1      git status  // 查看文件夹是否变动
 2      git add ./改动的文件名
