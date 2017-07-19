@@ -13,5 +13,5 @@ clone 到本地
 
 拉取 远程分支
 git fetch origin master170719  //master170719
-git log -p master170719.. origin/master170719   //比较本地master170719 分支和origin 的master170719分支的差别
+git log -p master170719.. origin/master170719   //比较本地master170719 分支和origin 的master170719分支的差别  日志太长 按 q退出
 git merge origin/master170719  //最后进行合并
