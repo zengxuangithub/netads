@@ -1,19 +1,17 @@
 
-clone µ½±¾µØ
-1 clone git@github.com:zengxuangithub/netads netads   //µÚ¶ş¸önetadsÎª±¾µØĞÂ½¨µÄÎÄ¼ş¼Ğ
+clone åˆ°æœ¬åœ°
+1 clone git@github.com:zengxuangithub/netads netads   //ç¬¬äºŒä¸ªnetadsä¸ºæœ¬åœ°æ–°å»ºçš„æ–‡ä»¶å¤¹
 
 
-ÉÏ´«ĞŞ¸ÄµÄÎÄ¼şµ½Ô¶³Ì²Ö¿âÖ÷·ÖÖ§  
-1      git status  // ²é¿´ÎÄ¼ş¼ĞÊÇ·ñ±ä¶¯
-2      git add ./¸Ä¶¯µÄÎÄ¼şÃû
-3      git commit -m "Ìá½»±¸×¢"  // ÏÈÌá½»µ½±¾µØ²Ö¿â 
-3      git  push origin master //ÍÆËÍµ½Ô¶³Ì²Ö¿âÖ÷·ÖÖ§
+ä¸Šä¼ ä¿®æ”¹çš„æ–‡ä»¶åˆ°è¿œç¨‹ä»“åº“ä¸»åˆ†æ”¯  
+1      git status  // æŸ¥çœ‹æ–‡ä»¶å¤¹æ˜¯å¦å˜åŠ¨
+2      git add ./æ”¹åŠ¨çš„æ–‡ä»¶å
+3      git commit -m "æäº¤å¤‡æ³¨"  // å…ˆæäº¤åˆ°æœ¬åœ°ä»“åº“ 
+3      git  push origin master //æ¨é€åˆ°è¿œç¨‹ä»“åº“ä¸»åˆ†æ”¯
 
 
 
-
-ÉÏ´«ĞŞ¸ÄµÄÎÄ¼şµ½Ô¶³Ì²Ö¿âÖ÷·ÖÖ§  
-1      git status  // ²é¿´ÎÄ¼ş¼ĞÊÇ·ñ±ä¶¯
-2      git add ./¸Ä¶¯µÄÎÄ¼şÃû
-3      git commit -m "Ìá½»±¸×¢"  // ÏÈÌá½»µ½±¾µØ²Ö¿â 
-3      git  push origin master //ÍÆËÍµ½Ô¶³Ì²Ö¿âÖ÷·ÖÖ§
+æ‹‰å– è¿œç¨‹åˆ†æ”¯
+git fetch origin master170719  //master170719
+git log -p master170719.. origin/master170719   //æ¯”è¾ƒæœ¬åœ°master170719 åˆ†æ”¯å’Œorigin çš„master170719åˆ†æ”¯çš„å·®åˆ«
+git merge origin/master170719  //æœ€åè¿›è¡Œåˆå¹¶
