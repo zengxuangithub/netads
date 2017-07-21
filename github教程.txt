@@ -1,4 +1,4 @@
-
+﻿
 clone 到本地
 1 clone git@github.com:zengxuangithub/netads netads   //第二个netads为本地新建的文件夹
 
@@ -15,3 +15,15 @@ clone 到本地
 git fetch origin master170719  //master170719
 git log -p master170719.. origin/master170719   //比较本地master170719 分支和origin 的master170719分支的差别  日志太长 按 q退出
 git merge origin/master170719  //最后进行合并
+
+
+
+新建本地分支
+git branch 分支名
+切换到本地分支
+git checkout 分支名
+  
+提交到远程分支  git push origin 本地分支:远程分支
+
+如果本地分支与远程分支同名  可以直接提交
+git push
